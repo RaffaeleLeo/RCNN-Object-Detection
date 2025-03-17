@@ -41,7 +41,7 @@ A couple of experiments using faster rcnn, detectron2 and YOLO to detect a varie
         * This augmentation randomly crops the image. This is used to try and simulate different viewpoints and object sizes
 
 * After Fine-Tuning:
-    * Detectron2: 0.75
-    * YOLO: 0.72
+    * Detectron2: average precision of 0.75
+    * YOLO: average precision of 0.72
 
 <img width="408" alt="Screen Shot 2025-03-17 at 2 43 33 PM" src="https://github.com/user-attachments/assets/b34d50a2-87d9-4b17-91c6-3f778fc020f8" />
