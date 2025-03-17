@@ -12,8 +12,10 @@ A couple of experiments using faster rcnn, detectron2 and YOLO to detect a varie
     * random hflip
 
 * Baseline model results:
+<img width="276" alt="Screen Shot 2025-03-17 at 2 45 14 PM" src="https://github.com/user-attachments/assets/1b8eaff0-64a2-424a-b8c7-17d280bdf091" />
 
 * Fine-tuned results:
+<img width="282" alt="Screen Shot 2025-03-17 at 2 45 33 PM" src="https://github.com/user-attachments/assets/07524f38-c33a-47fd-889c-a4d9d0467afe" />
 
 # Experiment 2: Comparing Detectron2 vs YOLO in detecting climbing holds
 
@@ -22,10 +24,11 @@ A couple of experiments using faster rcnn, detectron2 and YOLO to detect a varie
 * Baseline
     * Detectron2: average precision of 0.62
     * YOLO: average precision of 0.61
+<img width="409" alt="Screen Shot 2025-03-17 at 2 44 29 PM" src="https://github.com/user-attachments/assets/5e5d5b8b-ac18-474d-9253-690bc2147523" />
 
 * Fine-Tuning: 
-    * Detectron2: one epoc of 2000 data instances
-    * YOLO: 25 epocs of 100 iterations each
+    * Detectron2: one epoch of 2000 data instances
+    * YOLO: 25 epochs of 100 iterations each
 
 * Augmentations Used:
     * Random Brightness
@@ -40,3 +43,5 @@ A couple of experiments using faster rcnn, detectron2 and YOLO to detect a varie
 * After Fine-Tuning:
     * Detectron2: 0.75
     * YOLO: 0.72
+
+<img width="408" alt="Screen Shot 2025-03-17 at 2 43 33 PM" src="https://github.com/user-attachments/assets/b34d50a2-87d9-4b17-91c6-3f778fc020f8" />
